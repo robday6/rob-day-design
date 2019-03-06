@@ -17,9 +17,11 @@ fields:
   - type: text
     name: link
     label: link
+    default: Test
   - type: text
     name: link_text
     label: Link text
+    default: "#"
   config:
     labelField: link_text
 - type: field_group
