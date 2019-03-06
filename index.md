@@ -11,8 +11,8 @@ page_sections:
     link_text: Home
   - link: "/Illustration"
     link_text: Illustration
-  - link: "#"
-    link_text: Pricing
+  - link: "/design"
+    link_text: Design
   - link: "#"
     link_text: Team
   cta:
