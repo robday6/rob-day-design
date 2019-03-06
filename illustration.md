@@ -75,6 +75,9 @@ page_sections:
 - template: simple-footer
   block: footer-1
   content: Hello world! ❤︎
+menu:
+  main:
+    weight: 3
 
 ---
 foo bar
