@@ -1,6 +1,6 @@
 ---
 layout: blocks
-title: Illustration
+title: Design
 date: 2017-11-22 23:00:00 +0000
 page_sections:
 - template: navigation-header-w-button
@@ -75,7 +75,6 @@ page_sections:
 - template: simple-footer
   block: footer-1
   content: Hello world! ❤︎
-published: false
 
 ---
 foo bar
