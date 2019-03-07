@@ -33,5 +33,3 @@ fields:
   - 4-column-footer
 pages:
 - index.md
-- "./illustration.md"
-- "./homepage.md"
