@@ -3,7 +3,7 @@ author: Rob Day
 email: support@forestry.io
 description: >-
   Rob Day | Design and Illustration 
-baseurl: "/rob-day-design" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # your site's origin, e.g. https://forestry.io
 
 # Build settings

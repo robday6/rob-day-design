@@ -4,10 +4,20 @@
    Docs: http://tachyons.io/docs/typography/font-family/
 
 */
+@font-face {
+    font-family: Aperçu-regular;
+    src: url("../assets/fonts/apercu_regular_pro.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Aperçu-mono;
+    src: url("../assets/fonts/apercu_mono_pro.otf") format("opentype");
+}
+
 
 
 .sans-serif {
-  font-family: -apple-system, BlinkMacSystemFont,
+  font-family: 'Aperçu-regular', -apple-system, BlinkMacSystemFont,
                'avenir next', avenir,
                'helvetica neue', helvetica,
                ubuntu,
