@@ -7,6 +7,8 @@ page_sections:
   block: header-1
   logo: "/uploads/2019/03/07/forestry-full.svg"
   navigation:
+  - link: "/illustration"
+    link_text: Illustration
   - link: "/design"
     link_text: Design
 - template: hero-banner-w-image
