@@ -10,6 +10,7 @@ fields:
 - type: file
   name: logo
   label: Logo
+  default: "/uploads/2019/03/07/forestry-full.svg"
 - type: field_group_list
   name: navigation
   label: Navigation
