@@ -8,6 +8,5 @@ page_sections:
 menu:
   main:
     weight: 3
-published: false
 
 ---
