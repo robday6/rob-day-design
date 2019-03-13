@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="152px" height="60px" viewBox="0 0 152 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>FAND-logo-white</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home" transform="translate(-204.000000, -2178.000000)" fill="#FFFFFF">
+            <g id="Logos" transform="translate(0.000000, 1439.000000)">
+                <g id="FAND-logo-white" transform="translate(204.000000, 739.000000)">
+                    <polygon id="Path" points="16.037594 34.2039237 16.037594 60 0 60 0 0 27 0 27 12.1153076 16.037594 12.1153076 16.037594 22.088616 26.1493985 22.088616 26.1493985 34.2039237"></polygon>
+                    <path d="M28,60 L36.6379144,0 L58.859005,0 L68,60 L51.3189063,60 L50.7323183,53.900307 L44.1902337,53.900307 L43.7726972,60 L28,60 Z M45.1902846,41.044308 L49.4674882,41.044308 L47.12521,15.7406913 L45.1902846,41.044308 Z" id="Shape" fill-rule="nonzero"></path>
+                    <polygon id="Path" points="85.3886405 28.2683838 85.3886405 60 71 60 71 0 88.1124901 0 94.6113595 32.0599226 94.6113595 0 109 0 109 60 92.0533789 60"></polygon>
+                    <path d="M133.638013,0 C145.367963,0 152,6.26384626 152,18.1309222 L152,42.5276925 C152,54.3947685 145.367963,60 133.638013,60 L114,60 L114,0 L133.638013,0 Z M133.039231,48.7094622 C134.569224,48.7094622 135.502499,47.3902309 135.502499,45 L135.502499,15 C135.502499,12.6097691 134.569224,11.2905378 133.039231,11.2905378 L130.321995,11.2905378 L130.321995,48.7094622 L133.039231,48.7094622 Z" id="Shape" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
