@@ -1,15 +1,16 @@
-<div class="block block-cta-bar">
-  <div class="container">
-    <div class="columns">
-        <div class="text">
-          <p>{{ section.content }}</p>
-        </div>
-        <div class="cta">
-          <form action="https://formspree.io/{{ section.email_recipient }}" method="POST">
-            <input type="email" placeholder="your@email.com" class="inverted">
-            <button type="submit" class="button primary inverted">Sign up</button>
-          </form>
-        </div>
-    </div>
+<div class="block container">
+  <div class="grid columns-10">
+
+    <div class="pa5"><img src="{{ section.image_1.image | relative_url }}" alt="{{ section.image_1.caption }}"></div>
+    <div class="pa5"><img src="{{ section.image_2.image | relative_url }}" alt="{{ section.image_2.caption }}"></div>
+    <div class="pa5"><img src="{{ section.image_3.image | relative_url }}" alt="{{ section.image_3.caption }}"></div>
+    <div class="pa5"><img src="{{ section.image_4.image | relative_url }}" alt="{{ section.image_4.caption }}"></div>
+    <div class="pa5"><img src="{{ section.image_5.image | relative_url }}" alt="{{ section.image_5.caption }}"></div>
+    <div class="pa5"><img src="{{ section.image_6.image | relative_url }}" alt="{{ section.image_6.caption }}"></div>
+    <div class="pa5"><img src="{{ section.image_7.image | relative_url }}" alt="{{ section.image_7.caption }}"></div>
+    <div class="pa5"><img src="{{ section.image_8.image | relative_url }}" alt="{{ section.image_8.caption }}"></div>
+    <div class="pa5"><img src="{{ section.image_9.image | relative_url }}" alt="{{ section.image_9.caption }}"></div>
+    <div class="pa5"><img src="{{ section.image_10.image | relative_url }}" alt="{{ section.image_10.caption }}"></div>
+
   </div>
 </div>
