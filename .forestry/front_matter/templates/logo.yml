@@ -1,7 +1,7 @@
 ---
 label: logo
 hide_body: false
-display_field: caption
+display_field: logo
 fields:
 - type: file
   name: logo
