@@ -11,6 +11,9 @@ page_sections:
     link_text: design
   - link: "/illustration"
     link_text: illo
+- template: simple-header
+  block: header-3
+  logo: "/uploads/2019/03/13/logo.svg"
 - template: 3-column-text
   block: three-column-1
 - template: 4-column-footer
