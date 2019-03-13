@@ -18,3 +18,33 @@ fields:
   name: email_recipient
   label: Email Recipient
   description: Form submissions will be sent to this email address.
+- type: file
+  label: image_1
+  name: image_1
+- type: file
+  name: image_2
+  label: image_2
+- type: file
+  name: image_3
+  label: image_3
+- type: file
+  name: image_4
+  label: image_4
+- type: file
+  name: image_5
+  label: image_5
+- type: file
+  name: image_6
+  label: image_6
+- type: file
+  name: image_7
+  label: image_7
+- type: file
+  name: image_8
+  label: image_8
+- type: file
+  name: image_9
+  label: image_9
+- type: file
+  name: image_10
+  label: image_10
