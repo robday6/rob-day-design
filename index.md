@@ -3,6 +3,9 @@ layout: blocks
 title: Home
 date: 2017-11-22 23:00:00 +0000
 page_sections:
+- template: simple-header
+  block: header-3
+  logo: "/uploads/2019/03/13/logo.svg"
 - template: navigation-header
   block: header-1
   logo: ''
@@ -24,9 +27,6 @@ page_sections:
   content: Test content goes here
 - template: 4-column-footer
   block: footer-2
-- template: simple-header
-  block: header-3
-  logo: "/uploads/2019/03/13/logo.svg"
 menu:
   main:
     identifier: home
