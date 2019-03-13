@@ -22,6 +22,8 @@ page_sections:
     image: "/uploads/2019/03/13/Phone - mid.png"
   col_3:
     image: "/uploads/2019/03/13/Phone - right.png"
+- template: 1-column-text
+  block: one-column-1
 - template: 4-column-footer
   block: footer-2
 menu:
