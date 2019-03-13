@@ -11,6 +11,8 @@ page_sections:
     link_text: design
   - link: "/illustration"
     link_text: illo
+- template: 3-column-text
+  block: three-column-1
 - template: hero-banner-w-image
   block: hero-2
   headline: Rob Day <br><strong>Designer</strong>
