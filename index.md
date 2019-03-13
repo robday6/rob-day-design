@@ -7,10 +7,10 @@ page_sections:
   block: header-1
   logo: ''
   navigation:
-  - link: "/illustration"
-    link_text: illo
   - link: "/design"
     link_text: design
+  - link: "/illustration"
+    link_text: illo
 - template: hero-banner-w-image
   block: hero-2
   headline: Rob Day <br><strong>Designer</strong>
