@@ -1,7 +1,8 @@
 ---
 label: logo
 hide_body: false
+display_field: logo
 fields:
 - type: file
-  name: image
-  label: Image
+  name: logo
+  label: Logo
