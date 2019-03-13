@@ -1,0 +1,8 @@
+---
+label: logo
+hide_body: false
+fields:
+- type: file
+  name: image
+  label: Image
+
