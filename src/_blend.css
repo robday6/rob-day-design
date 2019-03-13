@@ -3,6 +3,5 @@
 */
 
 .blended {
-  background-color: blue;
-  background-blend-mode: multiply;
+  mix-blend-mode: multiply;
 }

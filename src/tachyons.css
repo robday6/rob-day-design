@@ -35,6 +35,7 @@
 @import './_background-size';
 @import './_background-position';
 @import './_outlines';
+@import './_blend';
 @import './_borders';
 @import './_border-colors';
 @import './_border-radius';

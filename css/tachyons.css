@@ -289,6 +289,10 @@ img { max-width: 100%; }
 .outline-transparent { outline: 1px solid transparent; }
 .outline-0 { outline: 0; }
 /*
+  BLEND
+*/
+.blended { mix-blend-mode: multiply; }
+/*
 
     BORDERS
     Docs: http://tachyons.io/docs/themes/borders/
@@ -388,7 +392,7 @@ img { max-width: 100%; }
 .b--light-green { border-color: #9eebcf; }
 .b--navy { border-color: #001b44; }
 .b--dark-blue { border-color: #00449e; }
-.b--blue { border-color: #357edd; }
+.b--blue { border-color: #1e24fb; }
 .b--light-blue { border-color: #96ccff; }
 .b--lightest-blue { border-color: #cdecff; }
 .b--washed-blue { border-color: #f6fffe; }
@@ -709,9 +713,12 @@ img { max-width: 100%; }
    Docs: http://tachyons.io/docs/typography/font-family/
 
 */
+@font-face { font-family: 'Larsseit-Light'; src: url( '../assets/fonts/Larsseit-Light.eot' ); src: url( '../assets/fonts/Larsseit-Light.woff2' ) format( 'woff2' ), url( '../assets/fonts/Larsseit-Light.woff' ) format( 'woff' ), url( '../assets/fonts/Larsseit-Light.ttf' ) format( 'truetype' ), url( '../assets/fonts/Larsseit-Light.svg#Larsseit-Light' ) format( 'svg' ), url( '../assets/fonts/Larsseit-Light.eot?#iefix' ) format( 'embedded-opentype' ); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'Larsseit-Medium'; src: url( '../assets/fonts/Larsseit-Medium.eot' ); src: url( '../assets/fonts/Larsseit-Medium.woff2' ) format( 'woff2' ), url( '../assets/fonts/Larsseit-Medium.woff' ) format( 'woff' ), url( '../assets/fonts/Larsseit-Medium.ttf' ) format( 'truetype' ), url( '../assets/fonts/Larsseit-Medium.svg#Larsseit-Medium' ) format( 'svg' ), url( '../assets/fonts/Larsseit-Medium.eot?#iefix' ) format( 'embedded-opentype' ); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'Larsseit-Bold'; src: url( '../assets/fonts/Larsseit-Bold.eot' ); src: url( '../assets/fonts/Larsseit-Bold.woff2' ) format( 'woff2' ), url( '../assets/fonts/Larsseit-Bold.woff' ) format( 'woff' ), url( '../assets/fonts/Larsseit-Bold.ttf' ) format( 'truetype' ), url( '../assets/fonts/Larsseit-Bold.svg#Larsseit-Bold' ) format( 'svg' ), url( '../assets/fonts/Larsseit-Bold.eot?#iefix' ) format( 'embedded-opentype' ); font-weight: normal; font-style: normal; }
 @font-face { font-family: Aperçu-regular; src: url( "../assets/fonts/apercu_regular_pro.otf" ) format( "opentype" ); }
 @font-face { font-family: Aperçu-mono; src: url( "../assets/fonts/apercu_mono_pro.otf" ) format( "opentype" ); }
-.sans-serif { font-family: 'Aperçu-regular', -apple-system, BlinkMacSystemFont, 'avenir next', avenir, 'helvetica neue', helvetica, ubuntu, roboto, noto, 'segoe ui', arial, sans-serif; }
+.sans-serif { font-family: 'Larsseit-Bold', -apple-system, BlinkMacSystemFont, 'avenir next', avenir, 'helvetica neue', helvetica, ubuntu, roboto, noto, 'segoe ui', arial, sans-serif; }
 .serif { font-family: georgia, times, serif; }
 .system-sans-serif { font-family: sans-serif; }
 .system-serif { font-family: serif; }
@@ -1369,7 +1376,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .light-green { color: #9eebcf; }
 .navy { color: #001b44; }
 .dark-blue { color: #00449e; }
-.blue { color: #357edd; }
+.blue { color: #1e24fb; }
 .light-blue { color: #96ccff; }
 .lightest-blue { color: #cdecff; }
 .washed-blue { color: #f6fffe; }
@@ -1427,7 +1434,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .bg-light-green { background-color: #9eebcf; }
 .bg-navy { background-color: #001b44; }
 .bg-dark-blue { background-color: #00449e; }
-.bg-blue { background-color: #357edd; }
+.bg-blue { background-color: #1e24fb; }
 .bg-light-blue { background-color: #96ccff; }
 .bg-lightest-blue { background-color: #cdecff; }
 .bg-washed-blue { background-color: #f6fffe; }
@@ -1598,8 +1605,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .hover-navy:focus { color: #001b44; }
 .hover-dark-blue:hover { color: #00449e; }
 .hover-dark-blue:focus { color: #00449e; }
-.hover-blue:hover { color: #357edd; }
-.hover-blue:focus { color: #357edd; }
+.hover-blue:hover { color: #1e24fb; }
+.hover-blue:focus { color: #1e24fb; }
 .hover-light-blue:hover { color: #96ccff; }
 .hover-light-blue:focus { color: #96ccff; }
 .hover-lightest-blue:hover { color: #cdecff; }
@@ -1648,8 +1655,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .hover-bg-navy:focus { background-color: #001b44; }
 .hover-bg-dark-blue:hover { background-color: #00449e; }
 .hover-bg-dark-blue:focus { background-color: #00449e; }
-.hover-bg-blue:hover { background-color: #357edd; }
-.hover-bg-blue:focus { background-color: #357edd; }
+.hover-bg-blue:hover { background-color: #1e24fb; }
+.hover-bg-blue:focus { background-color: #1e24fb; }
 .hover-bg-light-blue:hover { background-color: #96ccff; }
 .hover-bg-light-blue:focus { background-color: #96ccff; }
 .hover-bg-lightest-blue:hover { background-color: #cdecff; }
@@ -1998,6 +2005,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
      -l  = large
 
 */
+.fancy-logo { font-size: 25.5vw; text-align: justify; color: #1e24fb; }
+.multiply { mix-blend-mode: multiply; }
 /* Measure is limited to ~66 characters */
 .measure { max-width: 30em; }
 /* Measure is limited to ~80 characters */
@@ -2196,7 +2205,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .nested-copy-indent p+p { text-indent: 1em; margin-top: 0; margin-bottom: 0; }
 .nested-copy-separator p+p { margin-top: 1.5em; }
 .nested-img img { width: 100%; max-width: 100%; display: block; }
-.nested-links a { color: #357edd; transition: color .15s ease-in; }
+.nested-links a { color: #1e24fb; transition: color .15s ease-in; }
 .nested-links a:hover { color: #96ccff; transition: color .15s ease-in; }
 .nested-links a:focus { color: #96ccff; transition: color .15s ease-in; }
 /*

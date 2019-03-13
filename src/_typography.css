@@ -10,6 +10,14 @@
 
 */
 
+.fancy-logo{
+  font-size: 25.5vw;
+  text-align: justify;
+  color: #1E24FB;
+}
+
+.multiply {mix-blend-mode: multiply;}
+
 
 
 /* Measure is limited to ~66 characters */
