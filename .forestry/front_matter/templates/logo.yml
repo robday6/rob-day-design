@@ -5,4 +5,3 @@ fields:
 - type: file
   name: image
   label: Image
-
