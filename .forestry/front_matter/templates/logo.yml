@@ -6,3 +6,6 @@ fields:
 - type: file
   name: logo
   label: Logo
+- type: text
+  name: caption
+  label: Caption
