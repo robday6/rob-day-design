@@ -2,6 +2,12 @@
 label: text-column
 hide_body: false
 fields:
+- type: file
+  name: image
+  label: image
+- type: text
+  name: caption
+  label: caption
 - type: text
   name: headline
   label: Headline
