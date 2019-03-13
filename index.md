@@ -5,12 +5,12 @@ date: 2017-11-22 23:00:00 +0000
 page_sections:
 - template: navigation-header
   block: header-1
-  logo: "/uploads/2019/03/07/forestry-full.svg"
+  logo: ''
   navigation:
   - link: "/illustration"
-    link_text: Illustration
+    link_text: illo
   - link: "/design"
-    link_text: Design
+    link_text: design
 - template: hero-banner-w-image
   block: hero-2
   headline: Rob Day <br><strong>Designer</strong>
