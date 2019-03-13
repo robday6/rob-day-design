@@ -24,6 +24,8 @@ page_sections:
     image: "/uploads/2019/03/13/Phone - right.png"
 - template: 2-column-text
   block: two-column-1
+  col_1:
+    image: "/uploads/2019/03/13/canvas tote.png"
 - template: signup-bar
   block: cta-bar
   image_1: "/uploads/2019/03/13/brewage a trois.svg"
