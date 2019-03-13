@@ -22,6 +22,10 @@ page_sections:
     image: "/uploads/2019/03/13/Phone - mid.png"
   col_3:
     image: "/uploads/2019/03/13/Phone - right.png"
+- template: 2-column-text
+  block: two-column-1
+- template: signup-bar
+  block: cta-bar
 - template: 1-column-text
   block: one-column-1
   content: Test content goes here
