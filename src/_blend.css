@@ -3,7 +3,6 @@
 */
 
 .blended {
-  background-image: url(face.jpg);
-  background-color: red;
+  background-color: blue;
   background-blend-mode: multiply;
 }
