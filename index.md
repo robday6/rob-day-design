@@ -30,13 +30,13 @@ page_sections:
     image: "/uploads/2019/03/13/cake walk.png"
 - template: signup-bar
   block: cta-bar
-  image_1: "/uploads/2019/03/13/brewage a trois.svg"
+  image_1: "/uploads/2019/03/14/Brewage.svg"
   image_2: "/uploads/2019/03/13/77.svg"
   image_3: "/uploads/2019/03/13/Ampthill.svg"
   image_4: "/uploads/2019/03/13/sean.svg"
   image_5: "/uploads/2019/03/13/FAND.svg"
   image_6: "/uploads/2019/03/13/Livitay.svg"
-  image_7: "/uploads/2019/03/13/Bifolds.svg"
+  image_7: "/uploads/2019/03/14/Sig bifolds.svg"
 - template: 1-column-text
   block: one-column-1
   content: Test content goes here
