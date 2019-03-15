@@ -15,6 +15,11 @@
 .absolute  { position: absolute; }
 .fixed  { position: fixed; }
 
+.stuck {
+  position:fixed;
+  top:0;
+}
+
 @media (--breakpoint-not-small) {
   .static-ns { position: static; }
   .relative-ns  { position: relative; }

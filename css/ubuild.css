@@ -515,8 +515,6 @@ input.inverted::placeholder {
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    font-size: 12.8px;
-    font-size: .8rem;
     margin: -32px;
     margin: -2rem
 }

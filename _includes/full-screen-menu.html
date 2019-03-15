@@ -1,0 +1,41 @@
+
+
+<!-- The overlay -->
+<div id="nav" class="fade-in fade-out w-100 h-100 fixed left-0 top-0 overflow-x-hidden bg-blue z-2 columns-2 columns-2-ns pa4-ns">
+
+  <!-- Overlay content -->
+  <header class="pa4">
+
+    <div class="flex f2 justify-between white">
+        {% for nav_item in section.navigation %}
+        <div>
+          <a class="white link no-underline pointer dim">{{ nav_item.link_text }}</a>
+        </div>
+        {% endfor %}
+    </div>
+
+  </header>
+
+
+  <ul class="list column-start-1 column-start-2-ns column-end-3 tr pr2 nt7 nt1-ns pt5 pt0-ns">
+
+	<!-- Button to close the overlay navigation -->
+  	<a href="javascript:void(0)" class="white no-underline f2 dim closebtn " onclick="closeNav()">
+  		<img class="w2 pb4" src="{{ base }}/assets/close.svg">
+    </a>
+
+    {% for nav_item in section.navigation %}
+      <li>
+        <a onclick="openNav()" href="{{ nav_item.link }}" class="pv3 dim white f3 link no-underline dib tracked">{{ nav_item.link_text }}</a>
+      </li>
+      {% endfor %}
+  	
+    
+  </ul>
+
+</div>
+
+
+
+
+

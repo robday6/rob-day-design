@@ -8,9 +8,7 @@
 @font-face {
   font-family: 'Larsseit-Light';
   src: url('../assets/fonts/Larsseit-Light.eot');
-  src: url('../assets/fonts/Larsseit-Light.woff2') format('woff2'),
-       url('../assets/fonts/Larsseit-Light.woff') format('woff'),
-       url('../assets/fonts/Larsseit-Light.ttf') format('truetype'),
+  src: url('../assets/fonts/Larsseit-Light.ttf') format('truetype'),
        url('../assets/fonts/Larsseit-Light.svg#Larsseit-Light') format('svg'),
        url('../assets/fonts/Larsseit-Light.eot?#iefix') format('embedded-opentype');
   font-weight: normal;
@@ -20,9 +18,7 @@
 @font-face {
   font-family: 'Larsseit-Medium';
   src: url('../assets/fonts/Larsseit-Medium.eot');
-  src: url('../assets/fonts/Larsseit-Medium.woff2') format('woff2'),
-       url('../assets/fonts/Larsseit-Medium.woff') format('woff'),
-       url('../assets/fonts/Larsseit-Medium.ttf') format('truetype'),
+  src: url('../assets/fonts/Larsseit-Medium.ttf') format('truetype'),
        url('../assets/fonts/Larsseit-Medium.svg#Larsseit-Medium') format('svg'),
        url('../assets/fonts/Larsseit-Medium.eot?#iefix') format('embedded-opentype');
   font-weight: normal;
@@ -32,9 +28,7 @@
 @font-face {
   font-family: 'Larsseit-Bold';
   src: url('../assets/fonts/Larsseit-Bold.eot');
-  src: url('../assets/fonts/Larsseit-Bold.woff2') format('woff2'),
-       url('../assets/fonts/Larsseit-Bold.woff') format('woff'),
-       url('../assets/fonts/Larsseit-Bold.ttf') format('truetype'),
+  src: url('../assets/fonts/Larsseit-Bold.ttf') format('truetype'),
        url('../assets/fonts/Larsseit-Bold.svg#Larsseit-Bold') format('svg'),
        url('../assets/fonts/Larsseit-Bold.eot?#iefix') format('embedded-opentype');
   font-weight: normal;

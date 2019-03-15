@@ -11,6 +11,7 @@
 */
 
 :root {
+  
   --black: #000;
   --near-black: #111;
   --dark-gray:#333;
@@ -66,7 +67,7 @@
   --light-pink:  #ffa3d7;
   --dark-green:  #137752;
   --green:  #19a974;
-  --light-green:  #9eebcf;
+  --light-green:  #69FDDD;
   --navy:  #001b44;
   --dark-blue:  #00449e;
   --blue:  #1E24FB;
