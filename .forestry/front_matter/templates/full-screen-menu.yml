@@ -8,11 +8,12 @@ fields:
   name: block
   default: ''
 - type: list
-  name: navigation-list
+  name: navigation
   label: Navigation
   config:
     use_select: true
     source:
       type: pages
   default:
+  - design.md
   - illustration.md
