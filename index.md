@@ -53,6 +53,9 @@ page_sections:
 - template: 4-column-footer
   block: footer-2
   image: "/uploads/2019/03/15/logo-white.svg"
+  col_2: Designer, illustrator, developer
+  col_3: Test
+  col_4: Test
 menu:
   main:
     identifier: home
