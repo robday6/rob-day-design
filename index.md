@@ -12,6 +12,7 @@ page_sections:
     link_id: design
   - link: "/illustration"
     link_text: illo
+    link_id: illo
 - template: simple-header
   block: header-3
   logo: "/uploads/2019/03/13/logo.svg"
