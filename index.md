@@ -48,6 +48,7 @@ page_sections:
 - template: full-width-media-element
   block: media-1
   image: "/uploads/2019/03/15/Desktop HD.png"
+  bgcolor: "#1B1B1B"
 - template: 4-column-footer
   block: footer-2
 menu:
