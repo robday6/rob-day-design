@@ -9,6 +9,7 @@ page_sections:
   navigation:
   - link: "/design"
     link_text: design
+    link_id: design
   - link: "/illustration"
     link_text: illo
 - template: simple-header
