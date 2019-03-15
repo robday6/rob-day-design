@@ -52,6 +52,7 @@ page_sections:
   bgcolor: "#1B1B1B"
 - template: 4-column-footer
   block: footer-2
+  image: "/uploads/2019/03/15/logo-white.svg"
 menu:
   main:
     identifier: home
