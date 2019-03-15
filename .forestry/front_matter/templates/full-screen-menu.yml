@@ -6,11 +6,13 @@ fields:
   hidden: true
   label: block
   name: block
-  default: hero-1
-- type: textarea
+  default: ''
+- type: list
+  name: navigation-list
+  label: Navigation
   config:
-    wysiwyg: true
-    schema:
-      format: html
-  label: Headline
-  name: heading
+    use_select: true
+    source:
+      type: pages
+  default:
+  - illustration.md
