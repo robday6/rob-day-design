@@ -45,6 +45,7 @@ page_sections:
     image: "/uploads/2019/03/15/Phone - mid.png"
   col_3:
     image: "/uploads/2019/03/15/Phone - right.png"
+  margin: mv5
 - template: full-width-media-element
   block: media-1
   image: "/uploads/2019/03/15/Desktop HD.png"
