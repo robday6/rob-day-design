@@ -31,3 +31,6 @@ fields:
     name: column
     label: Column
     template: text-column
+- type: text
+  name: margin
+  label: margin
