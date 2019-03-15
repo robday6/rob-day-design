@@ -37,9 +37,6 @@ page_sections:
   image_5: "/uploads/2019/03/13/FAND.svg"
   image_6: "/uploads/2019/03/13/Livitay.svg"
   image_7: "/uploads/2019/03/14/Sig bifolds.svg"
-- template: 1-column-text
-  block: one-column-1
-  content: Test content goes here
 - template: 3-column-text
   block: three-column-1
   col_1:
@@ -48,6 +45,9 @@ page_sections:
     image: "/uploads/2019/03/15/Phone - mid.png"
   col_3:
     image: "/uploads/2019/03/15/Phone - right.png"
+- template: full-width-media-element
+  block: media-1
+  image: "/uploads/2019/03/15/Desktop HD.png"
 - template: 4-column-footer
   block: footer-2
 menu:
