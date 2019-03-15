@@ -44,6 +44,10 @@ page_sections:
   block: three-column-1
   col_1:
     image: "/uploads/2019/03/15/Phone - left.png"
+  col_2:
+    image: "/uploads/2019/03/15/Phone - mid.png"
+  col_3:
+    image: "/uploads/2019/03/15/Phone - right.png"
 - template: 4-column-footer
   block: footer-2
 menu:
