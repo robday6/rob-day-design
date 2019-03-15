@@ -42,6 +42,8 @@ page_sections:
   content: Test content goes here
 - template: 3-column-text
   block: three-column-1
+  col_1:
+    image: "/uploads/2019/03/15/Phone - left.png"
 - template: 4-column-footer
   block: footer-2
 menu:
