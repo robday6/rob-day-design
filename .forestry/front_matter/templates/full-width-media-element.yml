@@ -13,3 +13,8 @@ fields:
 - type: text
   name: caption
   label: Caption
+- type: color
+  name: bgcolor
+  config:
+    color_format: Hex
+  label: Background colour
