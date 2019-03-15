@@ -21,5 +21,8 @@ fields:
   - type: text
     name: link_text
     label: Link text
+  - type: text
+    name: link_id
+    label: Link ID
   config:
     labelField: link_text
