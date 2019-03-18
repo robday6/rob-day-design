@@ -34,7 +34,3 @@ fields:
 - type: text
   name: margin
   label: margin
-- type: boolean
-  name: multiply
-  label: multiply
-  default: false
