@@ -21,6 +21,7 @@ page_sections:
   col_1:
     image: "/uploads/2019/03/13/Phone - left.png"
     multiply: true
+    classes: multiply
   col_2:
     image: "/uploads/2019/03/13/Phone - mid.png"
     multiply: true
