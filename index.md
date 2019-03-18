@@ -23,6 +23,7 @@ page_sections:
     multiply: true
   col_2:
     image: "/uploads/2019/03/13/Phone - mid.png"
+    multiply: true
   col_3:
     image: "/uploads/2019/03/13/Phone - right.png"
 - template: 2-column-text
