@@ -18,6 +18,7 @@ fields:
     wysiwyg: true
     schema:
       format: html
-- type: boolean
-  name: multiply
-  label: multiply
+- type: text
+  name: classes
+  label: Classes
+  description: e.g 'multiply'
