@@ -55,6 +55,7 @@ page_sections:
     classes: z-2
   col_3:
     image: "/uploads/2019/03/15/Phone - right.png"
+    classes: z-3
   margin: mv5
 - template: full-width-media-element
   block: media-1
