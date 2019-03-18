@@ -13,6 +13,9 @@ page_sections:
   - link: "/illustration"
     link_text: illo
     link_id: illo
+- template: simple-header
+  block: header-3
+  logo: "/uploads/2019/03/13/logo.svg"
 - template: 3-column-text
   block: three-column-1
   col_1:
@@ -62,9 +65,6 @@ page_sections:
   col_3: About
   col_4: Contact<br><a href="" title="">insta</a><br><a href="mailto:rob.day@live.com"
     title="email">email</a>
-- template: simple-header
-  block: header-3
-  logo: "/uploads/2019/03/13/logo.svg"
 menu:
   main:
     identifier: home
