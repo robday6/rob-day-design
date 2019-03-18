@@ -1,10 +1,19 @@
 /* Open */
-
-function openNav() {
-  document.getElementById("nav").style.display = "grid";
+function openNavDesign() {
+  document.getElementById("nav-design").style.display = "grid";
 }
 
 /* Close */
-function closeNav() {
-  document.getElementById("nav").style.display = "none";
+function closeNavDesign() {
+  document.getElementById("nav-design").style.display = "none";
+}
+
+/* Open */
+function openNavIllo() {
+  document.getElementById("nav-illo").style.display = "grid";
+}
+
+/* Close */
+function closeNavIllo() {
+  document.getElementById("nav-illo").style.display = "none";
 }
