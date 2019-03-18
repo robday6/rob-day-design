@@ -52,6 +52,7 @@ page_sections:
     classes: z-2
   col_2:
     image: "/uploads/2019/03/15/Phone - mid.png"
+    classes: z-2
   col_3:
     image: "/uploads/2019/03/15/Phone - right.png"
   margin: mv5
