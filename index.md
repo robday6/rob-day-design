@@ -20,6 +20,7 @@ page_sections:
   block: three-column-1
   col_1:
     image: "/uploads/2019/03/13/Phone - left.png"
+    multiply: true
   col_2:
     image: "/uploads/2019/03/13/Phone - mid.png"
   col_3:
