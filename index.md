@@ -49,13 +49,13 @@ page_sections:
   block: three-column-1
   col_1:
     image: "/uploads/2019/03/15/Phone - left.png"
-    classes: z-2 shadow-6 br-5 bg--light-gray
+    classes: z-2 shadow-6 br5 bg--light-gray
   col_2:
     image: "/uploads/2019/03/15/Phone - mid.png"
-    classes: z-2 shadow-6 br-5 bg--light-gray
+    classes: z-2 shadow-6 br5 bg--light-gray
   col_3:
     image: "/uploads/2019/03/15/Phone - right.png"
-    classes: z-2 shadow-6 br-5 bg--light-gray
+    classes: z-2 shadow-6 br5 bg--light-gray
   margin: mv5
 - template: full-width-media-element
   block: media-1
