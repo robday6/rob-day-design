@@ -75,6 +75,9 @@ page_sections:
   col_3: About
   col_4: Contact<br><a href="" title="">insta</a><br><a href="mailto:rob.day@live.com"
     title="email">email</a>
+- template: simple-footer
+  block: footer-1
+  content: "© 2018 Rob Day  |  Design. Illustration. Code  "
 menu:
   main:
     identifier: home
