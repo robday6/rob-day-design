@@ -63,7 +63,7 @@ page_sections:
   col_1:
     image: "/uploads/2019/03/19/off with your head.png"
   col_2:
-    image: "/uploads/2019/03/19/Monks cover.png"
+    image: "/uploads/Monks cover.png"
 - template: full-width-media-element
   block: media-1
   image: "/uploads/2019/03/15/Desktop HD.png"
