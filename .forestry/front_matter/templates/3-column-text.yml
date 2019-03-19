@@ -34,3 +34,6 @@ fields:
 - type: text
   name: margin
   label: margin
+- type: boolean
+  name: shadow
+  label: Shadow?
