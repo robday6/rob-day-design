@@ -62,6 +62,10 @@ page_sections:
   block: media-1
   image: "/uploads/2019/03/15/Desktop HD.png"
   bgcolor: "#1B1B1B"
+- template: 2-column-text
+  block: two-column-1
+  col_1:
+    image: "/uploads/2019/03/19/Monks cover.png"
 - template: 4-column-footer
   block: footer-2
   image: "/uploads/2019/03/15/logo-white.svg"
