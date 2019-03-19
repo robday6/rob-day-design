@@ -66,6 +66,8 @@ page_sections:
   block: two-column-1
   col_1:
     image: "/uploads/2019/03/19/Monks cover.png"
+  col_2:
+    image: "/uploads/2019/03/19/off with your head.png"
 - template: 4-column-footer
   block: footer-2
   image: "/uploads/2019/03/15/logo-white.svg"
