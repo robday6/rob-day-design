@@ -35,7 +35,7 @@ page_sections:
   col_1:
     image: "/uploads/2019/03/13/canvas tote.png"
   col_2:
-    image: "/uploads/2019/03/13/cake walk.png"
+    image: "/uploads/2019/03/19/cake walk.svg"
 - template: signup-bar
   block: cta-bar
   image_1: "/uploads/2019/03/14/Brewage.svg"
