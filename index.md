@@ -58,16 +58,16 @@ page_sections:
     classes: z-2 shadow-6 br5 bg-light-gray
   margin: mv5
   shadow: true
-- template: full-width-media-element
-  block: media-1
-  image: "/uploads/2019/03/15/Desktop HD.png"
-  bgcolor: "#1B1B1B"
 - template: 2-column-text
   block: two-column-1
   col_1:
     image: "/uploads/2019/03/19/off with your head.png"
   col_2:
     image: "/uploads/2019/03/19/Monks cover.png"
+- template: full-width-media-element
+  block: media-1
+  image: "/uploads/2019/03/15/Desktop HD.png"
+  bgcolor: "#1B1B1B"
 - template: 4-column-footer
   block: footer-2
   image: "/uploads/2019/03/15/logo-white.svg"
