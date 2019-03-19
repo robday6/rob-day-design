@@ -68,13 +68,6 @@ page_sections:
   block: media-1
   image: "/uploads/2019/03/15/Desktop HD.png"
   bgcolor: "#1B1B1B"
-- template: 4-column-footer
-  block: footer-2
-  image: "/uploads/2019/03/15/logo-white.svg"
-  col_2: Design<br>Illustration<br>Code
-  col_3: About
-  col_4: Contact<br><a href="" title="">insta</a><br><a href="mailto:rob.day@live.com"
-    title="email">email</a>
 - template: simple-footer
   block: footer-1
   content: "© 2018 Rob Day  |  Design. Illustration. Code  "
