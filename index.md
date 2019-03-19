@@ -52,7 +52,7 @@ page_sections:
     classes: z-2 shadow-6
   col_2:
     image: "/uploads/2019/03/15/Phone - mid.png"
-    classes: z-2
+    classes: z-2 shadow-6
   col_3:
     image: "/uploads/2019/03/15/Phone - right.png"
     classes: z-2
