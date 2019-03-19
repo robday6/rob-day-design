@@ -49,7 +49,7 @@ page_sections:
   block: three-column-1
   col_1:
     image: "/uploads/2019/03/15/Phone - left.png"
-    classes: z-2
+    classes: z-2 shadow-6
   col_2:
     image: "/uploads/2019/03/15/Phone - mid.png"
     classes: z-2
