@@ -512,6 +512,7 @@ img { max-width: 100%; }
 .shadow-3 { box-shadow: 2px 2px 4px 2px rgba( 0, 0, 0, .2 ); }
 .shadow-4 { box-shadow: 2px 2px 8px 0 rgba( 0, 0, 0, .2 ); }
 .shadow-5 { box-shadow: 4px 4px 8px 0 rgba( 0, 0, 0, .2 ); }
+.shadow-6 { box-shadow: 5px 5px 40px -5px rgba( 235, 235, 235, 1 ); }
 /*
 
    CODE
@@ -713,9 +714,9 @@ img { max-width: 100%; }
    Docs: http://tachyons.io/docs/typography/font-family/
 
 */
-@font-face { font-family: 'Larsseit-Light'; src: url( '../assets/fonts/Larsseit-Light.eot' ); src: url( '../assets/fonts/Larsseit-Light.woff2' ) format( 'woff2' ), url( '../assets/fonts/Larsseit-Light.woff' ) format( 'woff' ), url( '../assets/fonts/Larsseit-Light.ttf' ) format( 'truetype' ), url( '../assets/fonts/Larsseit-Light.svg#Larsseit-Light' ) format( 'svg' ), url( '../assets/fonts/Larsseit-Light.eot?#iefix' ) format( 'embedded-opentype' ); font-weight: normal; font-style: normal; }
-@font-face { font-family: 'Larsseit-Medium'; src: url( '../assets/fonts/Larsseit-Medium.eot' ); src: url( '../assets/fonts/Larsseit-Medium.woff2' ) format( 'woff2' ), url( '../assets/fonts/Larsseit-Medium.woff' ) format( 'woff' ), url( '../assets/fonts/Larsseit-Medium.ttf' ) format( 'truetype' ), url( '../assets/fonts/Larsseit-Medium.svg#Larsseit-Medium' ) format( 'svg' ), url( '../assets/fonts/Larsseit-Medium.eot?#iefix' ) format( 'embedded-opentype' ); font-weight: normal; font-style: normal; }
-@font-face { font-family: 'Larsseit-Bold'; src: url( '../assets/fonts/Larsseit-Bold.eot' ); src: url( '../assets/fonts/Larsseit-Bold.woff2' ) format( 'woff2' ), url( '../assets/fonts/Larsseit-Bold.woff' ) format( 'woff' ), url( '../assets/fonts/Larsseit-Bold.ttf' ) format( 'truetype' ), url( '../assets/fonts/Larsseit-Bold.svg#Larsseit-Bold' ) format( 'svg' ), url( '../assets/fonts/Larsseit-Bold.eot?#iefix' ) format( 'embedded-opentype' ); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'Larsseit-Light'; src: url( '../assets/fonts/Larsseit-Light.eot' ); src: url( '../assets/fonts/Larsseit-Light.ttf' ) format( 'truetype' ), url( '../assets/fonts/Larsseit-Light.svg#Larsseit-Light' ) format( 'svg' ), url( '../assets/fonts/Larsseit-Light.eot?#iefix' ) format( 'embedded-opentype' ); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'Larsseit-Medium'; src: url( '../assets/fonts/Larsseit-Medium.eot' ); src: url( '../assets/fonts/Larsseit-Medium.ttf' ) format( 'truetype' ), url( '../assets/fonts/Larsseit-Medium.svg#Larsseit-Medium' ) format( 'svg' ), url( '../assets/fonts/Larsseit-Medium.eot?#iefix' ) format( 'embedded-opentype' ); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'Larsseit-Bold'; src: url( '../assets/fonts/Larsseit-Bold.eot' ); src: url( '../assets/fonts/Larsseit-Bold.ttf' ) format( 'truetype' ), url( '../assets/fonts/Larsseit-Bold.svg#Larsseit-Bold' ) format( 'svg' ), url( '../assets/fonts/Larsseit-Bold.eot?#iefix' ) format( 'embedded-opentype' ); font-weight: normal; font-style: normal; }
 @font-face { font-family: Aperçu-regular; src: url( "../assets/fonts/apercu_regular_pro.otf" ) format( "opentype" ); }
 @font-face { font-family: Aperçu-mono; src: url( "../assets/fonts/apercu_mono_pro.otf" ) format( "opentype" ); }
 .sans-serif { font-family: 'Larsseit-Bold', -apple-system, BlinkMacSystemFont, 'avenir next', avenir, 'helvetica neue', helvetica, ubuntu, roboto, noto, 'segoe ui', arial, sans-serif; }
@@ -2363,6 +2364,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .shadow-3-ns { box-shadow: 2px 2px 4px 2px rgba( 0, 0, 0, .2 ); }
  .shadow-4-ns { box-shadow: 2px 2px 8px 0 rgba( 0, 0, 0, .2 ); }
  .shadow-5-ns { box-shadow: 4px 4px 8px 0 rgba( 0, 0, 0, .2 ); }
+ .shadow-6-ns { box-shadow: 5px 5px 40px -5px rgba( 235, 235, 235, 1 ); }
  .top-0-ns { top: 0; }
  .left-0-ns { left: 0; }
  .right-0-ns { right: 0; }
@@ -2533,6 +2535,15 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .row-end-4-ns { grid-row-end: 4; }
  .row-end-5-ns { grid-row-end: 5; }
  .row-end-6-ns { grid-row-end: 6; }
+ .align-self-start-ns { align-self: start; }
+ .align-self-end-ns { align-self: end; }
+ .align-self-center-ns { align-self: center; }
+ .align-self-stretch-ns { align-self: stretch; }
+ .align-items-center-ns { align-items: center; }
+ .place-self-start-ns { place-self: start; }
+ .place-self-end-ns { place-self: end; }
+ .place-self-center-ns { place-self: center; }
+ .place-self-stretch-ns { place-self: stretch; }
  .h1-ns { height: 1rem; }
  .h2-ns { height: 2rem; }
  .h3-ns { height: 4rem; }
@@ -2857,6 +2868,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .shadow-3-m { box-shadow: 2px 2px 4px 2px rgba( 0, 0, 0, .2 ); }
  .shadow-4-m { box-shadow: 2px 2px 8px 0 rgba( 0, 0, 0, .2 ); }
  .shadow-5-m { box-shadow: 4px 4px 8px 0 rgba( 0, 0, 0, .2 ); }
+ .shadow-6-m { box-shadow: 5px 5px 40px -5px rgba( 235, 235, 235, 1 ); }
  .top-0-m { top: 0; }
  .left-0-m { left: 0; }
  .right-0-m { right: 0; }
@@ -3027,6 +3039,15 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .row-end-4-m { grid-row-end: 4; }
  .row-end-5-m { grid-row-end: 5; }
  .row-end-6-m { grid-row-end: 6; }
+ .align-self-start-m { align-self: start; }
+ .align-self-end-m { align-self: end; }
+ .align-self-center-m { align-self: center; }
+ .align-self-stretch-m { align-self: stretch; }
+ .align-items-center-m { align-items: center; }
+ .place-self-start-m { place-self: start; }
+ .place-self-end-m { place-self: end; }
+ .place-self-center-m { place-self: center; }
+ .place-self-stretch-m { place-self: stretch; }
  .h1-m { height: 1rem; }
  .h2-m { height: 2rem; }
  .h3-m { height: 4rem; }
@@ -3351,6 +3372,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .shadow-3-l { box-shadow: 2px 2px 4px 2px rgba( 0, 0, 0, .2 ); }
  .shadow-4-l { box-shadow: 2px 2px 8px 0 rgba( 0, 0, 0, .2 ); }
  .shadow-5-l { box-shadow: 4px 4px 8px 0 rgba( 0, 0, 0, .2 ); }
+ .shadow-6-l { box-shadow: 5px 5px 40px -5px rgba( 235, 235, 235, 1 ); }
  .top-0-l { top: 0; }
  .left-0-l { left: 0; }
  .right-0-l { right: 0; }
@@ -3521,6 +3543,15 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .row-end-4-l { grid-row-end: 4; }
  .row-end-5-l { grid-row-end: 5; }
  .row-end-6-l { grid-row-end: 6; }
+ .align-self-start-l { align-self: start; }
+ .align-self-end-l { align-self: end; }
+ .align-self-center-l { align-self: center; }
+ .align-self-stretch-l { align-self: stretch; }
+ .align-items-center-l { align-items: center; }
+ .place-self-start-l { place-self: start; }
+ .place-self-end-l { place-self: end; }
+ .place-self-center-l { place-self: center; }
+ .place-self-stretch-l { place-self: stretch; }
  .h1-l { height: 1rem; }
  .h2-l { height: 2rem; }
  .h3-l { height: 4rem; }

@@ -344,6 +344,15 @@
  .row-end-4-ns { grid-row-end: 4; }
  .row-end-5-ns { grid-row-end: 5; }
  .row-end-6-ns { grid-row-end: 6; }
+ .align-self-start-ns    {align-self: start;}
+ .align-self-end-ns      {align-self: end;}
+ .align-self-center-ns   {align-self: center;}
+ .align-self-stretch-ns  {align-self: stretch;}
+ .align-items-center-ns  {align-items: center;}
+ .place-self-start-ns    {place-self: start;}  
+ .place-self-end-ns      {place-self: end;}
+ .place-self-center-ns   {place-self: center;}
+ .place-self-stretch-ns  {place-self: stretch;}
 }
 
 
@@ -419,6 +428,15 @@
  .row-end-4-m { grid-row-end: 4; }
  .row-end-5-m { grid-row-end: 5; }
  .row-end-6-m { grid-row-end: 6; }
+ .align-self-start-m    {align-self: start;}
+ .align-self-end-m      {align-self: end;}
+ .align-self-center-m   {align-self: center;}
+ .align-self-stretch-m  {align-self: stretch;}
+ .align-items-center-m  {align-items: center;}
+ .place-self-start-m    {place-self: start;}  
+ .place-self-end-m      {place-self: end;}
+ .place-self-center-m   {place-self: center;}
+ .place-self-stretch-m  {place-self: stretch;}
 }
 
 @media (--breakpoint-large) {
@@ -493,5 +511,14 @@
  .row-end-4-l { grid-row-end: 4; }
  .row-end-5-l { grid-row-end: 5; }
  .row-end-6-l { grid-row-end: 6; }
+ .align-self-start-l    {align-self: start;}
+ .align-self-end-l      {align-self: end;}
+ .align-self-center-l   {align-self: center;}
+ .align-self-stretch-l  {align-self: stretch;}
+ .align-items-center-l  {align-items: center;}
+ .place-self-start-l    {place-self: start;}  
+ .place-self-end-l      {place-self: end;}
+ .place-self-center-l   {place-self: center;}
+ .place-self-stretch-l  {place-self: stretch;}
 }
 

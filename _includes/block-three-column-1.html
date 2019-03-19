@@ -1,16 +1,19 @@
 <section class="center pa4 mw7-ns {{ section.margin }}" id="waypoint">
   <div class=" grid columns-3 ga4">
-      <div class="multiply">
+    
+      <div class="{{ section.col_1.classes }}">
         <img class="" src="{{ section.col_1.image | relative_url }}" alt="{{ section.col_1.caption }}">
         <h3>{{ section.col_1.headline }}</h3>
         <p>{{ section.col_1.content }}</p>
       </div>
-      <div class="multiply">
+
+      <div class="{{ section.col_2.classes }}">
         <img src="{{ section.col_2.image | relative_url }}" alt="{{ section.col_2.caption }}">
         <h3>{{ section.col_2.headline }}</h3>
         <p>{{ section.col_2.content }}</p>
       </div>
-      <div class="multiply">
+
+      <div class="{{ section.col_3.classes }}">
         <img src="{{ section.col_3.image | relative_url }}" alt="{{ section.col_3.caption }}">
         <h3>{{ section.col_3.headline }}</h3>
         <p>{{ section.col_3.content }}</p>
