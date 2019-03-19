@@ -18,9 +18,9 @@
 .shadow-4 { box-shadow: 2px 2px 8px 0px rgba( 0, 0, 0, 0.2 ); }
 .shadow-5 { box-shadow: 4px 4px 8px 0px rgba( 0, 0, 0, 0.2 ); }
 
-.shadow-6 { -webkit-box-shadow: 5px 5px 40px -5px rgba(235,235,235,1);
-               -moz-box-shadow: 5px 5px 40px -5px rgba(235,235,235,1);
-                    box-shadow: 5px 5px 40px -5px rgba(235,235,235,1);}
+.shadow-6 { -webkit-box-shadow: 5px 5px 40px -5px rgba(171,171,171,50);
+               -moz-box-shadow: 5px 5px 40px -5px rgba(171,171,171,50);
+                    box-shadow: 5px 5px 40px -5px rgba(171,171,171,50);}
 
 @media (--breakpoint-not-small) {
   .shadow-1-ns { box-shadow: 0px 0px 4px 2px rgba( 0, 0, 0, 0.2 ); }
@@ -29,9 +29,9 @@
   .shadow-4-ns { box-shadow: 2px 2px 8px 0px rgba( 0, 0, 0, 0.2 ); }
   .shadow-5-ns { box-shadow: 4px 4px 8px 0px rgba( 0, 0, 0, 0.2 ); }
 
-  .shadow-6-ns { -webkit-box-shadow: 5px 5px 40px -5px rgba(235,235,235,1);
-               -moz-box-shadow: 5px 5px 40px -5px rgba(235,235,235,1);
-                    box-shadow: 5px 5px 40px -5px rgba(235,235,235,1);}
+  .shadow-6-ns { -webkit-box-shadow: 5px 5px 40px -5px rgba(171,171,171,50);
+                    -moz-box-shadow: 5px 5px 40px -5px rgba(171,171,171,50);
+                         box-shadow: 5px 5px 40px -5px rgba(171,171,171,50);}
 }
 
 @media (--breakpoint-medium) {
@@ -41,9 +41,9 @@
   .shadow-4-m { box-shadow: 2px 2px 8px 0px rgba( 0, 0, 0, 0.2 ); }
   .shadow-5-m { box-shadow: 4px 4px 8px 0px rgba( 0, 0, 0, 0.2 ); }
 
-  .shadow-6-m { -webkit-box-shadow: 5px 5px 40px -5px rgba(235,235,235,1);
-               -moz-box-shadow: 5px 5px 40px -5px rgba(235,235,235,1);
-                    box-shadow: 5px 5px 40px -5px rgba(235,235,235,1);}
+  .shadow-6-m { -webkit-box-shadow: 5px 5px 40px -5px rgba(171,171,171,50);
+                   -moz-box-shadow: 5px 5px 40px -5px rgba(171,171,171,50);
+                        box-shadow: 5px 5px 40px -5px rgba(171,171,171,50)}
 }
 
 @media (--breakpoint-large) {
@@ -53,7 +53,7 @@
   .shadow-4-l { box-shadow: 2px 2px 8px 0px rgba( 0, 0, 0, 0.2 ); }
   .shadow-5-l { box-shadow: 4px 4px 8px 0px rgba( 0, 0, 0, 0.2 ); }
 
-  .shadow-6-l { -webkit-box-shadow: 5px 5px 40px -5px rgba(235,235,235,1);
-               -moz-box-shadow: 5px 5px 40px -5px rgba(235,235,235,1);
-                    box-shadow: 5px 5px 40px -5px rgba(235,235,235,1);}
+  .shadow-6-l { -webkit-box-shadow: 5px 5px 40px -5px rgba(171,171,171,50);
+                   -moz-box-shadow: 5px 5px 40px -5px rgba(171,171,171,50);
+                        box-shadow: 5px 5px 40px -5px rgba(171,171,171,50)}
 }
