@@ -11,6 +11,13 @@ fields:
   label: Column 1 Image
   name: image
 - type: textarea
+  config:
+    wysiwyg: true
+    schema:
+      format: html
+  label: Column 1 content
+  name: col_1
+- type: textarea
   name: col_2
   label: Column 2 Content
   config:
