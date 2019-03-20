@@ -71,10 +71,11 @@ page_sections:
 - template: 4-column-footer
   block: footer-2
   image: ''
-  col_4: "© 2019"
-  col_3: <a href="mailto:rob.day@live.com" title="email">email</a>
+  col_4: <a href="https://www.instagram.com/robday6/" title="instagram">instagram</a>  <a
+    href="mailto:rob.day@live.com" title="email">email</a>  © 2019
+  col_3: ''
   col_1: Designer  |  Illustrator  |  Developer
-  col_2: <a href="https://www.instagram.com/robday6/" title="insta">insta</a>
+  col_2: ''
 menu:
   main:
     identifier: home
