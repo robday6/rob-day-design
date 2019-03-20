@@ -70,11 +70,11 @@ page_sections:
   bgcolor: "#1B1B1B"
 - template: 4-column-footer
   block: footer-2
-  image: "/uploads/2019/03/13/logo.svg"
+  image: ''
   col_4: <a href="https://www.instagram.com/robday6/" title="insta">insta</a><br><a
     href="https://twitter.com/robday6" title="twit">twit</a><br><a href="mailto:rob.day@live.com"
     title="email">email</a>
-  col_3: design<br>illustration<br>code
+  col_3: Designer<br>Illustrator<br>Developer
 menu:
   main:
     identifier: home
